@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">RadioButton</string>
+    <string name="refill">请选择要充值的金额:</string>
+</resources>

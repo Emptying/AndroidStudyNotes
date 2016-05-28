@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">注册界面</string>
+    <string name="username">用户名</string>
+    <string name="pwd">密码</string>
+    <string name="reg">注册</string>
+    <string name="inusr">请输入用户名</string>
+    <string name="inpwd">请输入密码</string>
+</resources>

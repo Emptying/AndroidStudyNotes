@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contextClickable="false">
+    <!--shrinkColumns收缩，stretchColumns拉伸-->
+    <TableLayout  android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contextClickable="false"
+        android:shrinkColumns="1"
+        android:stretchColumns="2"
+        android:collapseColumns="3">
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="独自一行的按钮">
+        </Button>
+
+        <TableRow>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="普通按钮1"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="收缩按钮"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="拉伸的按钮"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="隐藏的按钮"/>
+            <Button android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        </TableRow>
+        <!--span占用列宽-->
+        <TableRow>
+            <Button />
+            <Button android:layout_span="2"/>
+        </TableRow>
+        <!--指定列位置-->
+        <TableRow>
+            <Button android:layout_column="2"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

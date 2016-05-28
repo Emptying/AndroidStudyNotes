@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string name="love"> Do you like to eat fruit:</string>
+    <string name="banana">Banana</string>
+    <string name="apple">Apple</string>
+    <string name="watermelon">Watermelon</string>
+    <string name="pear">Pear</string>
+</resources>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">列表视图演示</string>
+    <string name="apple">苹果</string>
+    <string name="banana">香蕉</string>
+    <string name="love">你喜欢的水果是:</string>
+    <string name="pear">梨子</string>
+    <string name="watermelon">西瓜</string>
+</resources>

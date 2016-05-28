@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ValuesDemo</string>
+    <string name="test">test String values</string>
+    <string name="usr">User:</string>
+    <string name="pwd">Password:</string>
+    <string name="login">Login</string>
+    <string name="cancel">Cancel</string>
+</resources>

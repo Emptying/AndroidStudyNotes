@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:stretchColumns="1">
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="用户名:"
+                android:textSize="16sp"/>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/editText"
+                android:layout_column="1"
+                android:hint="请输入用户名" />
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="密码:"
+                android:textSize="16sp"/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="numberPassword"
+                android:hint="请输入密码"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="年龄:"
+                android:textSize="16sp"/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="请输入年龄"/>
+        </TableRow>
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="生日:"
+                android:textSize="16sp"/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="请输入出生日期"
+                android:inputType="datetime"/>
+        </TableRow>
+
+        <TableRow>
+            <TextView android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="手机号码"
+                android:textSize="16sp"/>
+            <EditText android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="请输入你的电话号码"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:text="注册"
+                android:id="@+id/button"
+                android:layout_column="0"
+                android:layout_gravity="center"
+                android:layout_span="2"
+                android:textSize="20dp"/>
+        </TableRow>
+
+
+    </TableLayout>
+
+</LinearLayout>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">提莫队长</string>
+    <string name="inName">请输入姓名</string>
+    <string name="ok">确定</string>
+    <string name="backmusic">背景音乐:</string>
+    <string name="GameSound">游戏音效:</string>
+    <string name="usrtype">提莫类型:</string>
+    <string name="timo1">提莫1</string>
+    <string name="timo2">提莫2</string>
+    <string name="timo3">提莫3</string>
+    <string name="optionOk">确定</string>
+</resources>

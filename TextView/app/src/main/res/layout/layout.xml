@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--在文本框结尾添加图片-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好Android"
+        android:textSize="20pt"
+        android:drawableEnd="@drawable/timo1"/>
+    <!--设置中间省略所有字母大写-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="你好android你好android你好android你好android你好android你好android"
+        android:ellipsize="middle"
+        android:textAllCaps="true"
+        android:singleLine="true" />
+    <!--设置电话邮件超链接-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话是18120820619邮件是1073031455@qq.com"
+        android:autoLink="phone|email"
+        />
+    <!--设置文字阴影-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试文字"
+        android:singleLine="false"
+        android:shadowDx="10.0"
+        android:shadowDy="8.0"
+        android:shadowRadius="2"
+        android:shadowColor="#2a1dbe"
+        android:textSize="20dp" />
+    <!--测试密码框-->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:password="true"/>
+    <CheckedTextView
+        android:layout_width="395dp"
+        android:layout_height="96dp"
+        android:text="可勾选文本"
+        android:checkMark="@drawable/timo1"/>
+    <!--设置背景-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="94dp"
+        android:background="@drawable/bg_border"
+        android:text="带边框的文本"
+        android:textSize="24dp" />
+
+</LinearLayout>

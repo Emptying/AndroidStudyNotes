@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CheckBox</string>
+    <string name="B">粗体</string>
+    <string name="I">斜体</string>
+</resources>

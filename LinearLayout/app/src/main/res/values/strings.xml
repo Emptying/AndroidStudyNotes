@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LinearLayout</string>
+    <string name="Title">您只需要执行几个步骤，即可为大多数账户设置电子邮件。</string>
+    <string name="email">电子邮件地址</string>
+    <string name="password">密码</string>
+    <string name="next">下一步</string>
+    <string name="UserName">用户名</string>
+</resources>
